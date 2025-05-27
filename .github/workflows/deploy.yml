@@ -3,7 +3,7 @@ name: Deploy Resources
 on:
   workflow_dispatch:
     inputs:
-      bb-run:
+      buildingBlockRun:
         description: "Building Block Run Object"
         required: true
 
